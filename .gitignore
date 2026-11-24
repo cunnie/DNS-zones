@@ -1,0 +1,6 @@
+# On ns-he this repo is checked out in /var/named, which is also BIND's
+# working directory (named.ca, data/, slaves/, …). Track only our files.
+/*
+!/.gitignore
+!/named.conf
+!/nono.io
